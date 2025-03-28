@@ -26,13 +26,13 @@ function gerarNumeroAleatorio(de, ate) {
 }
 
 function alterarStatusBotao() {
-  let botao = document.getElementById("btn-reiniciar");
-  if (botao.classList.contains("container__botao-desabilitado")) {
-    botao.classList.remove("container__botao-desabilitado");
-    botao.classList.add("container__botao");
+  let botaoReiniciar = document.getElementById("btn-reiniciar");
+  if (botaoReiniciar.classList.contains("container__botao-desabilitado")) {
+    botaoReiniciar.classList.remove("container__botao-desabilitado");
+    botaoReiniciar.classList.add("container__botao");
   } else {
-    botao.classList.remove("container__botao");
-    botao.classList.add("container__botao-desabilitado");
+    botaoReiniciar.classList.remove("container__botao");
+    botaoReiniciar.classList.add("container__botao-desabilitado");
   }
 }
 
