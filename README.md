@@ -1,6 +1,6 @@
 # Sorteador de Números
 
-> Um projeto web interativo para sortear números aleatórios sem repetições, com interface moderna e responsiva.
+Um projeto web interativo para sortear números aleatórios sem repetições, com interface moderna e responsiva.
 
 ## Menu
 
