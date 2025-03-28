@@ -2,9 +2,21 @@ function sortear() {
   let quantidade = parseInt(document.getElementById("quantidade").value);
   let de = parseInt(document.getElementById("de").value);
   let ate = parseInt(document.getElementById("ate").value);
-  let numeroAleatorio = gerarNumeroAleatorio(de, ate);
+  let resultado = document.getElementById("resultado");
+  let numeroAleatorio;
+  let sorteados = [];
 
-  alert(`Sorteando ${quantidade} números de ${de} a ${ate}`);
+  for (let i = 0; i < quantidade; i++) {
+    numeroAleatorio = gerarNumeroAleatorio(de, ate);
+    while (sorteados.includes(numeroAleatorio)) {
+      numeroAleatorio = gerarNumeroAleatorio(de, ate);
+    }
+    sorteados.push(numeroAleatorio);
+  }
+
+  resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados.join(
+    ", "
+  )}</label>`;
 }
 
 function gerarNumeroAleatorio(de, ate) {
