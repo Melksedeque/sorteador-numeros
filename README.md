@@ -41,12 +41,6 @@ Um projeto web interativo para sortear números aleatórios sem repetições, co
 - **Interface dinâmica**: Botões habilitados/desabilitados conforme o estado.
 - **Responsividade**: Adapta-se a celulares e tablets.
 
-### Próximos passos de desenvolvimento
-
-- [ ] Adicionar histórico de sorteios.
-- [ ] Permitir copiar números sorteados para a área de transferência.
-- [ ] Dark/light mode.
-
 ---
 
 ## Tecnologias Utilizadas
