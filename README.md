@@ -83,7 +83,7 @@ sorteador/
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/sorteador.git
+git clone https://github.com/Melksedeque/sorteador-numeros.git
 ```
 
 2. Abra o arquivo index.html no navegador.
@@ -109,7 +109,7 @@ Você pode ver o projeto ao vivo neste link: [https://melksedeque.github.io/sort
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Melksedeque/organo-alura-reactjs?tab=MIT-1-ov-file) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Melksedeque/sorteador-numeros?tab=MIT-1-ov-file) para mais detalhes.
 
 ---
 
